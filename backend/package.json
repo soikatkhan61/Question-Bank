@@ -1,0 +1,39 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Question Bank",
+  "main": "App.js",
+  "scripts": {
+    "server": "nodemon App.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soikatkhan61/Question-Bank.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "javascript",
+    "svelte",
+    "mongodb",
+    "mongoose",
+    "question-bank",
+    "tailwindcss",
+    "scss"
+  ],
+  "author": "Soikot Hossain, Md. Maruf Sarker, Rejwan Islam Rizvy, Saadman Galib",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/soikatkhan61/Question-Bank/issues"
+  },
+  "homepage": "https://github.com/soikatkhan61/Question-Bank#readme",
+  "devDependencies": {
+    "concurrently": "^7.2.1",
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.8"
+  }
+}

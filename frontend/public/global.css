@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Poppins&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html, body{
+	font-size: 62.5%;
+	font-family: 'Mukta', sans-serif;
+	background-color: var(--primary-color);
+	color: #fff;
+    /* font-family: 'Poppins', sans-serif; */
+}
+/* Global Colors */
+:root{
+    --primary-color: #4d4dff;
+    --fiverr-color: #1DBF73;
+    --azure-blue: #007FFF;
+}
