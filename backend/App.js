@@ -10,6 +10,7 @@ app.get("/", (req, res) => {
 
 let mongodb_uri
 
+//when you work in locally then you just make the condition false
 if(true){
   mongodb_uri = "mongodb+srv://admin1:admin1@cluster0.m2jxcwn.mongodb.net/test"
 }else{
