@@ -33,7 +33,7 @@ const userSchema = new Schema({
     },
     profilePics:{
         type: String,
-        default:'/uploads/soikat.jpg'
+        default:'/uploads/question-bank.jpg'
     }
 
 },{
