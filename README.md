@@ -15,3 +15,8 @@
 ## Run Backend
 
     yarn run server
+
+##Contributors 
+* Soikat Hossain 
+* Md. Maruf Sarker 
+* Rejwan Islam Rizvy

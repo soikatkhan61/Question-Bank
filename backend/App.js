@@ -1,7 +1,27 @@
+const { application } = require("express");
 const express = require("express");
 const mongoose = require("mongoose")
 const app = express();
 const port = 3000 || process.env.port;
+
+
+
+
+
+
+
+const setMiddleware = require('../backend/middleware/middleware')
+const setRoutes = require('../backend/routes/route')
+
+
+
+
+setMiddleware(app) 
+setRoutes(app)
+
+
+
+
 
 app.get("/", (req, res) => {
   res.send("Hello World!");
