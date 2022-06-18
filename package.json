@@ -1,0 +1,35 @@
+{
+  "name": "question-bank",
+  "version": "1.0.0",
+  "description": "Everything You Need For Your Exam Preparation.",
+  "main": "index.js",
+  "scripts": {
+    "frontend": "npm start --prefix frontend",
+    "backend": "nodemon App.js --prefix backend",
+    "dev": "concurrently \" yarn run backend \" \" yarn run frontend\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdmarufsarker/Question-Bank.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "javascript",
+    "nodejs",
+    "expressjs",
+    "mongodb",
+    "mongoose",
+    "svelte"
+  ],
+  "author": "Md. Maruf Sarker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mdmarufsarker/Question-Bank/issues"
+  },
+  "homepage": "https://github.com/mdmarufsarker/Question-Bank#readme",
+  "devDependencies": {
+    "concurrently": "^7.2.2",
+    "nodemon": "^2.0.16"
+  }
+}

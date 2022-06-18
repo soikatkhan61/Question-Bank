@@ -3,22 +3,19 @@
 ## Clone this repository
 
     git clone https://github.com/soikatkhan61/Question-Bank.git && cd Question-Bank
-    
+
 ## Install all dependencies
 
     yarn
 
-## Run frontend
-  
+## Run Project
+
     yarn run dev
-    
-## Run Backend
 
-    yarn run server
+## Contributors
 
-## Contributors 
-* Soikat Hossain 
-* Md. Maruf Sarker 
+* Soikat Hossain
+* Md. Maruf Sarker
 * Rejwan Islam Rizvy
 * Golam Mostafa
 * Saadman Galib
